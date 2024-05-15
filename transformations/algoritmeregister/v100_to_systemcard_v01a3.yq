@@ -1,0 +1,30 @@
+[ .[] | {"version": "0.1a3",
+         "name": .name,
+         "owners": [
+              {
+                  "organization": .organization,
+                  "email": .contact_email
+              }
+          ],
+          "description": .description_short | select(tag != "!!str") |= ""  | select(tag == "!!str") |= trim,
+          "labels": [
+                     {"category": .category},
+                     {"tags": .tags},
+                     {"lawful_basis": .lawful_basis},
+                     {"impacttoetsen": .impacttoetsen},
+                     {"impacttoetsen_grouping": .impacttoetsen_grouping}
+          ],
+          "status": .status,
+          "publication_category": .publication_category,
+          "begin_date": .begin_date,
+          "end_date": .end_date,
+          "goal_and_impact": .goal,
+          "considerations": .proportionality,
+          "risk_management": .risks,
+          "human_intervention": .human_intervention,
+          "legal_base": .lawful_basis_grouping | select(tag != "!!str") |= "" | select(tag == "!!str") |= sub("\d: "; "<SEPERATOR>") | split("<SEPERATOR>") | map(select(. != "" and . != null) | sub("\. "; "") | split(", ") | {"name": .[0], "link": .[1]}),
+          "used_data": .source_data,
+          "technical_design": .methods_and_models,
+          "external_providers": [.provider] | map(select(. != "" and . != null)),
+          "references": [.publiccode, .website, .url, .process_index_url, .source_data_grouping | select(tag != "!!str") |= "" | select(tag == "!!str") |= sub("\d: "; "<SEPERATOR>") | split("<SEPERATOR>") | map(select(. != "" and . != null) | sub("\. "; "") | split(", ") | .[1]) | .[] ] | map(select(. != "" and . != null))
+}]

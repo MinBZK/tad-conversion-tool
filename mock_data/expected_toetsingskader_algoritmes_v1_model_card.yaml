@@ -1,0 +1,191 @@
+name: Toetsingskader algoritmes v1
+contents:
+  - question: Is het doel van het algoritme vastgesteld?
+    answer: answer_0
+    remarks: remark_0
+  - question: Vindt er op vastgelegde (periodieke) momenten een afweging plaats van de risico’s over het gebruik van het algoritme?
+    answer: answer_1
+    remarks: remark_1
+  - question: Beschikt de organisatie over voldoende deskundigheid, zowel kwalitatief als kwantitatief?
+    answer: answer_2
+    remarks: remark_2
+  - question: Is het complete lifecycle management-proces rondom het algoritme gedocumenteerd?
+    answer: answer_3
+    remarks: remark_3
+  - question: Zijn de rollen, taken, verantwoordelijkheden en bevoegdheden in het proces beschreven (inclusief eigenaarschap) en in de praktijk toegepast?
+    answer: answer_4
+    remarks: remark_4
+  - question: Is er een overeengekomen en vastgelegde aanpak voor kwaliteits- en prestatiedoelstellingen voor algoritmes?
+    answer: answer_5
+    remarks: remark_5
+  - question: Zijn bij uitbesteding van onderdelen of activiteiten met betrekking tot het algoritme afspraken met betrokken externe partijen gemaakt en vastgelegd?
+    answer: answer_6
+    remarks: remark_6
+  - question: Wordt het algoritme op periodieke basis gemonitord? Je kunt hierbij denken aan monitoring op beschikbaarheid, prestaties/kwaliteit, en of het algoritme voldoet aan actuele wet- en regelgeving.
+    answer: answer_7
+    remarks: remark_7
+  - question: Is het doel van het algoritme duidelijk geformuleerd en is dat geoperationaliseerd in bruikbare aspecten in het kader van te gebruiken model en data? Welke taak of welk onderdeel van de bedrijfsvoering ondersteunt het algoritme?
+    answer: answer_8
+    remarks: remark_8
+  - question: Is er een gedeeld doel van het algoritme en is dat inzichtelijk/uitlegbaar voor eigenaar, ontwikkelaar en gebruiker?
+    answer: answer_9
+    remarks: remark_9
+  - question: Is het algoritme uitlegbaar en heeft er een afweging plaatsgevonden tussen de uitlegbaarheid van het model en de prestatie van het model?
+    answer: answer_10
+    remarks: remark_10
+  - question: Zijn de gemaakte overwegingen van het ontwerp en de implementatie vastgelegd?
+    answer: answer_11
+    remarks: remark_11
+  - question: Is er documentatie die het ontwerp en de implementatie beschrijft?
+    answer: answer_12
+    remarks: remark_12
+  - question: Zijn de keuzes voor het gebruik van hyperparameters beargumenteerd en onderbouwd?
+    answer: answer_13
+    remarks: remark_13
+  - question: Is het model (code en werking) gepubliceerd en beschikbaar voor belanghebbenden? In hoeverre zijn de gebruikte data of een beschrijving daarvan gepubliceerd en beschikbaar voor belanghebbenden?
+    answer: answer_14
+    remarks: remark_14
+  - question: Als er sprake is van geautomatiseerde besluitvorming, wordt daarbij voldaan aan de wet- en regelgeving die daarvoor geldt?
+    answer: answer_15
+    remarks: remark_15
+  - question: Zijn de verschillende stakeholders/eindgebruikers van het algoritme betrokken in het ontwikkelproces?
+    answer: answer_16
+    remarks: remark_16
+  - question: Welke controles zijn toegepast om de aansluiting te maken tussen de invoer en de uitvoer om zo de juistheid en volledigheid van de verwerking te garanderen?
+    answer: answer_17
+    remarks: remark_17
+  - question: Wordt het model periodiek geactualiseerd in lijn met actuele wet- en regelgeving?
+    answer: answer_18
+    remarks: remark_18
+  - question: Is de kwaliteit gewaarborgd met betrekking tot keuzes die zijn gemaakt bij training- en testdata?
+    answer: answer_19
+    remarks: remark_19
+  - question: Wordt er gewaarborgd dat er geen bias wordt gecreëerd door keuzes met betrekking tot het model?
+    answer: answer_20
+    remarks: remark_20
+  - question: Bevat de data geen onwenselijke bias?
+    answer: answer_21
+    remarks: remark_21
+  - question: Zijn training-, test- en validatiedata gescheiden verwerkt?
+    answer: answer_22
+    remarks: remark_22
+  - question: Zijn de gebruikte data representatief voor de toepassing?
+    answer: answer_23
+    remarks: remark_23
+  - question: Heeft de (overheids)organisatie volledige controle en beheersing (eigenaarschap) over de gebruikte data voor het model?
+    answer: answer_24
+    remarks: remark_24
+  - question: Is er sprake van dataminimalisatie? Is gekeken naar proportionaliteit en subsidiariteit?
+    answer: answer_25
+    remarks: remark_25
+  - question: Is de kwaliteit van het model gedocumenteerd?
+    answer: answer_26
+    remarks: remark_26
+  - question: 'Is er target leakage? Met andere woorden: maken de voorspellingen deel uit van de model features?'
+    answer: answer_27
+    remarks: remark_27
+  - question: Wordt er gebruikgemaakt van prestatie-indicatoren of performance metrics?
+    answer: answer_28
+    remarks: remark_28
+  - question: Wordt de output van het model gemonitord?
+    answer: answer_29
+    remarks: remark_29
+  - question: 'Vindt er externe communicatie plaats over het model/algoritme, inclusief de beperkingen: wat kan het wel en wat niet?'
+    answer: answer_30
+    remarks: remark_30
+  - question: Vindt er onderhoud en beheer plaats op het algoritme?
+    answer: answer_31
+    remarks: remark_31
+  - question: Wordt er een register bijgehouden met betrekking tot het gebruik van persoonsgegevens?
+    answer: answer_32
+    remarks: remark_32
+  - question: Is er sprake van data protection by design?
+    answer: answer_33
+    remarks: remark_33
+  - question: Is er een DPIA uitgevoerd (indien van toepassing)?
+    answer: answer_34
+    remarks: remark_34
+  - question: 'Is er sprake van automatische besluitvorming en zo ja: is dit toegestaan?'
+    answer: answer_35
+    remarks: remark_35
+  - question: Hebben de betrokkenen de mogelijkheid niet onderworpen te zijn aan geautomatiseerde besluitvorming (indien van toepassing)?
+    answer: answer_36
+    remarks: remark_36
+  - question: Is er sprake van data-minimalisatie?
+    answer: answer_37
+    remarks: remark_37
+  - question: Vindt de verwerking van gegevens plaats op grond van een wettelijke taak?
+    answer: answer_38
+    remarks: remark_38
+  - question: Is de verwerking van (bijzondere) persoonsgegevens met het algoritme verenigbaar met het oorspronkelijke doel?
+    answer: answer_39
+    remarks: remark_39
+  - question: Is vastgesteld wie de verwerkingsverantwoordelijke en verwerker is van de persoonsgegevens met betrekking tot het algoritme en de daarbij gebruikte data?
+    answer: answer_40
+    remarks: remark_40
+  - question: Is er sprake van discriminatie door gebruikte data en model?
+    answer: answer_41
+    remarks: remark_41
+  - question: Is er getoetst in hoeverre er sprake is van profilering en in hoeverre dat is toegestaan?
+    answer: answer_42
+    remarks: remark_42
+  - question: Is er invulling gegeven aan het proactief of op verzoek informeren van betrokkenen wier gegevens worden verwerkt/gebruikt (zowel data als algoritme)?
+    answer: answer_43
+    remarks: remark_43
+  - question: Zijn de logica van het gebruikte algoritme en de gebruikte gegevens voldoende duidelijk voor betrokkenen?
+    answer: answer_44
+    remarks: remark_44
+  - question: Zijn de gevolgen van de toepassing van het gebruikte algoritme duidelijk voor betrokkenen?
+    answer: answer_45
+    remarks: remark_45
+  - question: Is er een openbaar privacybeleid waarin gebruikte data en algoritmes aan bod komen?
+    answer: answer_46
+    remarks: remark_46
+  - question: Wordt loginformatie over de werking van het algoritme bewaard en toegankelijk gemaakt?
+    answer: answer_47
+    remarks: remark_47
+  - question: Wordt gecontroleerd of toegangsrechten up-to-date zijn met betrekking tot de omgeving waarin het algoritme functioneert?
+    answer: answer_48
+    remarks: remark_48
+  - question: Worden toegangsrechten aangepast zodra er een uitdiensttreding of functiewijziging van een werknemer plaatsvindt?
+    answer: answer_49
+    remarks: remark_49
+  - question: Worden toegangsrechten uitgegeven door daarvoor bevoegde personen?
+    answer: answer_50
+    remarks: remark_50
+  - question: Wordt functievermenging voorkomen bij de toegang van gebruikers tot het algoritme?
+    answer: answer_51
+    remarks: remark_51
+  - question: Wordt er gebruikgemaakt van generieke beheeraccounts? Staat het aantal beheeraccounts in logische verhouding tot de beheerders?
+    answer: answer_52
+    remarks: remark_52
+  - question: Wordt er bij het inrichten van toegangsrechten van verschillende gebruikersgroepen/rollen gebruikgemaakt van naamgevingsconventies en systematiek?
+    answer: answer_53
+    remarks: remark_53
+  - question: Worden er naamgevingsconventies gebruikt voor gebruikers en beheerders, zodat zij geïdentificeerd kunnen worden?
+    answer: answer_54
+    remarks: remark_54
+  - question: Voeren beheerders werkzaamheden als beheerder en werkzaamheden als gewone gebruiker uit onder 2 verschillende gebruikersnamen?
+    answer: answer_55
+    remarks: remark_55
+  - question: Hebben gebruikersaccounts (geen) directe toegang tot onderliggende componenten?
+    answer: answer_56
+    remarks: remark_56
+  - question: Bestaat er een functiescheiding tussen aanvragen, autoriseren en verwerken van wijzigingen in gebruikersaccounts en toegangsrechten?
+    answer: answer_57
+    remarks: remark_57
+  - question: Is het wachtwoordbeheer interactief en zijn de wachtwoorden van geschikte kwaliteit?
+    answer: answer_58
+    remarks: remark_58
+  - question: Worden wijzigingen in de code van het algoritme op een gecontroleerde wijze uitgevoerd? Denk aan het testen en accorderen/autoriseren van wijzigingen
+    answer: answer_59
+    remarks: remark_59
+  - question: Is het algoritme beveiligd, zodat er geen risico is op ongeautoriseerde toegang, wijziging, beschadiging en/of dataverlies?
+    answer: answer_60
+    remarks: remark_60
+  - question: Worden er back-ups van het algoritme gemaakt en kunnen het algoritme en de data hersteld worden?
+    answer: answer_61
+    remarks: remark_61
+  - question: Is er sprake van security by design?
+    answer: answer_62
+    remarks: remark_62

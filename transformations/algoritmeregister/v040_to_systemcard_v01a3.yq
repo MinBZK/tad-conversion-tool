@@ -1,0 +1,36 @@
+[ .[] | {"version": "0.1a3",
+         "name": .name,
+         "owners": [
+              {
+                  "organization": .organization,
+                  "email": .contact_email
+              }
+          ],
+          "description": .description_short | select(tag != "!!str") |= "" | select(tag == "!!str") |= trim,
+          "labels": [
+                     {"category": .category},
+                     {"lawful_basis": .lawful_basis},
+                     {"department": .department},
+                     {"type": .type},
+                     {"impact": .impact},
+                     {"decision_making_process": .decision_making_process},
+                     {"iama": .iama},
+                     {"iama_description": .iama_description},
+                     {"competent_authority": .competent_authority},
+                     {"dpia": .dpia},
+                     {"dpia_description": .dpia_description},
+                     {"objection_procedure": .objection_procedure},
+                     {"monitoring": .monitoring},
+                     {"performance_standard": .performance_standard}
+          ],
+          "status": .status,
+          "begin_date": .begin_date,
+          "end_date": .end_date,
+          "goal_and_impact": .goal,
+          "considerations": .proportionality,
+          "risk_management": .risks,
+          "human_intervention": .human_intervention,
+          "used_data": .source_data,
+          "technical_design": .methods_and_models,
+          "references": [.publiccode| select(tag != "!!str") |= "" | select(tag == "!!str") |= trim, .website| select(tag != "!!str") |= "" | select(tag == "!!str") |= trim, .url| select(tag != "!!str") |= "" | select(tag == "!!str") |= trim, .documentation| select(tag != "!!str") |= "" | select(tag == "!!str") |= trim, .lawful_basis_link| select(tag != "!!str") |= "" | select(tag == "!!str") |= trim] | map(select(. != "" and . != null))
+}]
