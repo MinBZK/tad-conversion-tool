@@ -1,0 +1,36 @@
+version: 0.1a3
+name: name_value
+owners:
+  - organization: organization_value
+    email: contact_email_value
+description: description_short_value
+labels:
+  - category: category_value
+  - tags: tags_value
+  - lawful_basis: lawful_basis_value
+  - impacttoetsen: impacttoetsen_value
+  - impacttoetsen_grouping: impacttoetsen_grouping_value
+status: status_value
+publication_category: publication_category_value
+begin_date: 2024-01-01
+end_date: 2024-12-01
+goal_and_impact: goal_value
+considerations: proportionality_value
+risk_management: risks_value
+human_intervention: human_intervention_value
+legal_base:
+  - name: law_1_name
+    link: https://law_1_link
+  - name: law_2_name
+    link: https://law_2_link
+used_data: source_data_value
+technical_design: methods_and_models_value
+external_providers:
+  - provider_value
+references:
+  - publiccode_value
+  - website_value
+  - url_value
+  - process_index_url_value
+  - https://source_data_1_link
+  - https://source_data_2_link

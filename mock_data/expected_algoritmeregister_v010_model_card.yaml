@@ -1,0 +1,33 @@
+version: 0.1a3
+name: name_value
+owners:
+  - organization: organization_value
+    email: contact_email_value
+description: description_short_value
+labels:
+  - category: category_value
+  - lawful_basis: lawful_basis_value
+  - department: department_value
+  - type: type_value
+  - impact: impact_value
+  - decision_making_process: decision_making_process_value
+  - iama: iama_value
+  - iama_description: iama_description_value
+  - competent_authority: competent_authority_value
+  - dpia: dpia_value
+  - dpia_description: dpia_description_value
+  - objection_procedure: objection_procedure_value
+  - monitoring: monitoring_value
+  - performance_standard: performance_standard_value
+status: status_value
+goal_and_impact: goal_value
+considerations: proportionality_value
+risk_management: risks_value
+human_intervention: human_intervention_value
+used_data: source_data_value
+technical_design: methods_and_models_value
+references:
+  - publiccode_value
+  - website_value
+  - url_value
+  - documentation_value

@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "conversion_utils"
+version = "0.1.0"
+description = ""
+authors = ["ai-validation-team <ai-validation@minibzk.nl>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+conversion_utils = "conversion_utils.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+requests = "^2.32.2"
+pandas-stubs = "^2.2.2.240514"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+pre-commit = "^3.7.1"
+pyright = "^1.1.362"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Ruff settings: https://docs.astral.sh/ruff/configuration/
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["I", "SIM", "B", "UP", "F", "E"]
+
+fixable = ["ALL"]
+
+[tool.pyright]
+pythonVersion = "3.11"
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportMissingTypeStubs = true

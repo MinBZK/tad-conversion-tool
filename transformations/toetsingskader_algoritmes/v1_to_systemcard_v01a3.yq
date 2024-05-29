@@ -1,0 +1,9 @@
+{
+    "name": "Toetsingskader algoritmes v1",
+    "contents": .[] |= {"question": .Onderzoeksvraag | select(tag != "!!str") |= ""  | select(tag == "!!str") |= trim,
+                        "answer": .["Beoordeling 
+in te vullen door de auditor"],
+                        "remarks": .["Toelichting 
+in te vullen door de auditor"]
+                        }
+}
