@@ -12,7 +12,7 @@ conversion_utils = "conversion_utils.main:main"
 python = "^3.11"
 pandas = "^2.3.0"
 openpyxl = "^3.1.5"
-requests = "^2.32.3"
+requests = "^2.32.4"
 pandas-stubs = "^2.2.3.250527"
 
 [tool.poetry.group.dev.dependencies]
