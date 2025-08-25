@@ -16,7 +16,7 @@ requests = "^2.32.4"
 pandas-stubs = "^2.3.0.250703"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.12.9"
+ruff = "^0.12.10"
 pre-commit = "^4.3.0"
 pyright = "^1.1.403"
 
