@@ -18,7 +18,7 @@ pandas-stubs = "^2.3.3.260113"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.15.16"
 pre-commit = "^4.6.0"
-pyright = "^1.1.409"
+pyright = "^1.1.410"
 
 [build-system]
 requires = ["poetry-core"]
